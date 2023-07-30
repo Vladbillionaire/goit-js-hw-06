@@ -13,7 +13,7 @@ const images = [
   },
 ];
 
-const imgEl = document.querySelector('gallery');
+const imgEl = document.querySelector('.gallery');
 
 const nuwImg = images.map(image => {
     return `<li><img src='${image.url}' width = '250px' alt='${image.alt}'></li>`;
