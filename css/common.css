@@ -31,4 +31,5 @@ button {
 .gallery li {
   display: flex;
   margin-left: 10px;
+  object-fit: cover;
 }
