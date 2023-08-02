@@ -29,5 +29,6 @@ button {
 }
 
 .gallery li {
+  display: flex;
   margin-left: 10px;
 }
